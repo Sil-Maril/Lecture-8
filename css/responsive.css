@@ -60,4 +60,16 @@
     .burger-menu {
         display: block;
     }
+
+
+}
+@media (max-width: 500px) {
+    .main-title {
+        width: 400px;
+        font-size: 40px;
+    }
+    .main-paragraph {
+        width: 400px;
+        font-size: 18px;
+    }
 }
