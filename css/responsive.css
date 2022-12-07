@@ -1,0 +1,63 @@
+@media (max-width: 1260px) {
+
+    .nav-list li {
+        font-size: 15px;
+    }
+    .btns-wrapper
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .login-btn, .free-trial-btn {
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 2px 5px;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .image-card {
+        max-width: 280px;
+    }
+
+}
+
+@media (max-width: 1096px) {
+    
+    .btns-wrapper
+    {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+    .images-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-card {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-list {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .btns-wrapper
+    {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+}
